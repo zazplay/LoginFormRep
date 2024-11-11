@@ -9,7 +9,7 @@ import {
   StyledModal
 } from './LoginForm.styled.ts';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Accordion, Button, Form } from 'react-bootstrap';
+import { Accordion, Form } from 'react-bootstrap';
 import axios from 'axios';
 import Modal from 'react-bootstrap/Modal';
 import Card from 'react-bootstrap/Card';

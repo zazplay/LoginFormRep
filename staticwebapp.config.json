@@ -10,10 +10,11 @@
         "*.tsx": "text/javascript"
       }
     },
-    "mimeTypes": {
-      ".js": "text/javascript",
-      ".css": "text/css",
-      ".html": "text/html",
-      ".svg": "image/svg+xml"
-    }
+    "routes": [
+      {
+        "route": "/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      }
+    ]
   }
