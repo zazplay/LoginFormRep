@@ -2,19 +2,20 @@
     "navigationFallback": {
       "rewrite": "/index.html"
     },
-    "globalHeaders": {
-      "content-type": {
-        "*.js": "text/javascript",
-        "*.mjs": "text/javascript",
-        "*.jsx": "text/javascript",
-        "*.tsx": "text/javascript"
-      }
-    },
     "routes": [
       {
         "route": "/*",
         "serve": "/index.html",
         "statusCode": 200
       }
-    ]
+    ],
+    "mimeTypes": {
+      ".js": "text/javascript",
+      ".css": "text/css",
+      ".html": "text/html",
+      ".json": "application/json"
+    },
+    "platform": {
+      "apiRuntime": "node:18"
+    }
   }
